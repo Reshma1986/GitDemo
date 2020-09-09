@@ -11,11 +11,12 @@ public class sushantpetition {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		String name[]= {"ramya","divya","disha","ranjan","rajat","deepa","ashok","riya","sharada","shilpa","riya","sanjana","ragini"};
+		String name[]= {"ramya","divya","disha","ranjan","rajat","deepa","ashok","riya","sharada","shilpa","riya","sanjana","ragini","kangana","kareena"};
 		System.setProperty("webdriver.chrome.driver", "D:\\reshma\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://petition.republicworld.com/");
 		System.out.println("updated for GitHub");
+		System.out.println("updated for GitHub again");
 		
 		for(int i=0;i<10;i++)
 		{		
